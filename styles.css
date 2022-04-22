@@ -1,0 +1,122 @@
+body {
+    background: rgb(216, 57, 57);
+    background: linear-gradient(
+      90deg,
+      rgb(216, 57, 57) 0%,
+      rgb(240, 108, 108) 54%,
+      rgb(242, 182, 182) 82%
+    );
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  .pokemon-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pokemon-blok,
+  .pokemon-block-back {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  }
+  
+  .img-container {
+    background-image: url("./blod.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: auto;
+  }
+  
+  .pokemon-block p {
+    margin: 0px auto;
+  }
+  
+  .name {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  #spinner {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .pagination {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  
+  .card-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .card-container {
+    transform: rotateY(180deg);
+  }
+  
+  .pokemon-block,
+  .pokemon-block-back {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .pokemon-block-back {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0%;
+  }
+  
+  .stat-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: left;
+  }
+
+  #btn-container{
+    padding: 200px;
+    text-align: center;
+  }
+
+  .btn-salir{
+      border-radius: 5px;
+      padding: 7px 15px;
+      margin-left: 100%;
+      color:white;
+      background-color: gray;
+      text-shadow: 0px 1px rgb(216, 57, 57, 0.3);
+  }
+  .btn-salir:hover{
+    background-color: rgb(103, 103, 103);
+  }
+  .btn-salir:active{
+    background-color: rgb(78, 78, 78);
+  }
+
+  

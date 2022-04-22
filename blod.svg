@@ -1,0 +1,10 @@
+<!-- <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+  <g transform="translate(150.82325744628906, -17.36791229248047)">
+    <path class="blob" d="M366,318Q294,386,184,382Q74,378,93,263.5Q112,149,211,106.5Q310,64,374,157Q438,250,366,318Z" fill="#037ef3"></path>
+  </g>
+</svg> -->
+<svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+  <g transform="translate(150.82325744628906, -17.36791229248047)">
+    <path class="blob" d="M375.5,328Q301,406,185,394Q69,382,84,261Q99,140,206.5,97Q314,54,382,152Q450,250,375.5,328Z" fill="#8c8c8c"></path>
+  </g>
+</svg>
